@@ -1,3 +1,14 @@
+# Meetup
+
+## To start API server
+
+Install nodemon using `npm i -g nodemon`
+Run `nodemon server/index.js`
+
+Note: API Server runs on PORT 8000
+
+## Client
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
