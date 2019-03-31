@@ -2,7 +2,7 @@ function isAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
     next();
   } else {
-    res.status(400).send('Not authenticated');
+    res.status(401).send('Not authenticated');
   }
 }
 
