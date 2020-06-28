@@ -1,14 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { userInfo } from '../../api';
+import React from "react";
+import { Link } from "react-router-dom";
+import { userInfo } from "../../api";
 class HomePage extends React.Component {
   componentDidMount() {
+    console.log("hey");
     userInfo()
       .then(() => {
-        this.props.history.push('/list');
+        this.props.history.push("/list");
       })
       .catch(() => {
-        this.props.history.push('/login');
+        this.props.history.push("/login");
       });
   }
   render() {
