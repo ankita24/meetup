@@ -5,6 +5,7 @@ class HomePage extends React.Component {
   componentDidMount() {
     console.log("hey");
     console.log("ankita");
+    console.log("riya");
     userInfo()
       .then(() => {
         this.props.history.push("/list");
