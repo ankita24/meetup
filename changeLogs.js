@@ -40,9 +40,7 @@ commitsArray.forEach(commit => {
       `* ${commit.message.replace("chore: ", "")} ([${commit.sha.substring(
         0,
         6
-      )}](https://github.com/jackyef/changelog-generator/commit/${
-        commit.sha
-      }))\n`
+      )}](https://github.com/ankita24/meetup/commit/${commit.sha}))\n`
     );
   }
 });
