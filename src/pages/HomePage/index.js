@@ -4,6 +4,7 @@ import { userInfo } from "../../api";
 class HomePage extends React.Component {
   componentDidMount() {
     console.log("hey");
+    console.log("ankita");
     userInfo()
       .then(() => {
         this.props.history.push("/list");
